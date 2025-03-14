@@ -27,7 +27,7 @@ function App() {
       
       {session ? (
         <UPIPayment 
-          upiId="vinodini.tawde@okaxis"
+          upiId=""
           merchantName="TEST"
         />
       ) : (
