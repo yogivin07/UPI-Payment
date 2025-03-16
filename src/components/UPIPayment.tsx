@@ -24,7 +24,7 @@ export function UPIPayment({ upiId, merchantName }: UPIPaymentProps) {
 
   const handleBackToHome = () => {
     // Replace this URL with your desired destination
-    window.location.href = 'https://sb1utsav100-f3dn--5173--495c5120.local-corp.webcontainer.io/';
+    window.location.href = 'https://genuine-boba-3154ec.netlify.app/';
   };
   const [userDetails, setUserDetails] = useState<UserDetails>({
     name: '',
