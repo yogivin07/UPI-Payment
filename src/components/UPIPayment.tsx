@@ -187,6 +187,8 @@ export function UPIPayment({ upiId, merchantName }: UPIPaymentProps) {
           <button
             type="button"
             disabled={saving}
+            onClick={handleBackToHome}
+
             className="w-full bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 transition-colors focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {saving ? 'Saving...' : 'Back to HOME'}
