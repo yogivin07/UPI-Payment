@@ -24,7 +24,7 @@ export function UPIPayment({ upiId, merchantName }: UPIPaymentProps) {
 
   const handleBackToHome = () => {
     // Replace this URL with your desired destination
-    window.location.href = 'https://genuine-boba-3154ec.netlify.app/';
+    window.location.href = 'https://kbsum1926.in/';
   };
   const [userDetails, setUserDetails] = useState<UserDetails>({
     name: '',
